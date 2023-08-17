@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "build": "webpack --config webpack.config.js",
     "start": "nodemon ./bin/www",
       "test": "./node_modules/.bin/mocha --timeout 15000 -R spec",
       "coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec --timeout 15000"
